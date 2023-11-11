@@ -43,7 +43,7 @@ function varTest() {
     console.log(x); // 2
   }
 
-  varTest() //                                     ** var override the properties if same properties in the function     ***
+  //varTest()                                    ** var override the properties if same properties in the function     ***
   
   function letTest() {
     let x = 1;
@@ -53,3 +53,4 @@ function varTest() {
     }
     console.log(x); // 1
   }
+  //letTest()                                  ** let keyword play important role it lies between function ***
