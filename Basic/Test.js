@@ -34,23 +34,31 @@ console.log(this.x); // "global"
 console.log(x === y);
 console.log(this.y); // undefined
 */
-function varTest() {
-    var x = 1;
-    {
-      var x = 2; // same variable!
-      console.log(x); // 2
-    }
-    console.log(x); // 2
-  }
+// function varTest() {
+//     var x = 1;
+//     {
+//       var x = 2; // same variable!
+//       console.log(x); // 2
+//     }
+//     console.log(x); // 2
+//   }
 
-  //varTest()                                    ** var override the properties if same properties in the function     ***
+//   //varTest()                                    ** var override the properties if same properties in the function     ***
   
-  function letTest() {
-    let x = 1;
-    {
-      let x = 2; // different variable
-      console.log(x); // 2
-    }
-    console.log(x); // 1
-  }
-  //letTest()                                  ** let keyword play important role it lies between function ***
+//   function letTest() {
+//     let x = 1;
+//     {
+//       let x = 2; // different variable
+//       console.log(x); // 2
+//     }
+//     console.log(x); // 1
+//   }
+//   //letTest()                                  ** let keyword play important role it lies between function ***
+
+
+  // here is the another one keyword
+  const value = "10"
+  console.log(value);
+  value  = 20;
+//  console.log(value);      we can't overriade const value
+
