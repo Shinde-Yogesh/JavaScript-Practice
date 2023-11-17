@@ -2,29 +2,46 @@
 // console.log(date)
 // console.log(date.getMilliseconds())
 
-Number
-Math
-Date
-String
-Error
-Function
-Boolean
+// Number
+// Math
+// Date
+// String
+// Error
+// Function
+// Boolean
 
-const fruits = ["Apple","Coconut","Banana"];
-console.log(fruits.length);
-console.log(fruits.push("Cheery"));
-//fruits.forEach((element) => console.log(element));
-//console.log(Array.from(fruits));  Array.from('') convert every word into character  [ 'f', 'r', 'u', 'i', 't', 's' ]
+// const fruits = ["Apple","Coconut","Banana"];
+// console.log(fruits.length);
+// console.log(fruits.push("Cheery"));
+// //fruits.forEach((element) => console.log(element));
+// //console.log(Array.from(fruits));  Array.from('') convert every word into character  [ 'f', 'r', 'u', 'i', 't', 's' ]
 
-// var newarray = fruits.shift(); /// shift the first element into the another array
+// // var newarray = fruits.shift(); /// shift the first element into the another array
+// // console.log(fruits)
+// // console.log(newarray)
 // console.log(fruits)
-// console.log(newarray)
-console.log(fruits)
-fruits.sort()
-console.log(fruits)
+// fruits.sort()
+// console.log(fruits)
 
 
-console.log(Array.isArray(fruits))
+// console.log(Array.isArray(fruits))
 
-const sample = fruits.reverse()
-console.log(sample)
+// const sample = fruits.reverse()
+// console.log(sample)
+
+console.log("******************************************** For Number ********************************************************")
+
+console.log(Number.MAX_VALUE)
+console.log(Number.MIN_VALUE)
+console.log(Number.NEGATIVE_INFINITY)
+console.log(Number.isInteger(678))
+console.log(Number.isInteger("Black Panther"))
+var key = 45.564;
+var floatvalue = Number.parseFloat(key)
+console.log(floatvalue)
+var change = new Number(10);
+console.log(change)
+console.log(typeof change)
+var newchange = change.valueOf();
+console.log(newchange)
+console.log(typeof newchange)
