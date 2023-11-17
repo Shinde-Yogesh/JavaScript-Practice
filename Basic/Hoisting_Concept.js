@@ -20,16 +20,11 @@ x = 3;
   //console.log(x); // undefined
   x = "local value";
 })();
+let z = 50;
 
-
-let a = 41;
-console.log(a)
-
-if(1 == 1)
 {
-  let a = 84;
-  const b = 47;
-
+  var a = 10;
+ 
 }
-console.log(a);
-console.log(b)
+console.log(a)
+console.log(z)
