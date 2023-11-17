@@ -1,2 +1,30 @@
-var date = new Date();
-console.log(date)
+// var date = new Date();
+// console.log(date)
+// console.log(date.getMilliseconds())
+
+Number
+Math
+Date
+String
+Error
+Function
+Boolean
+
+const fruits = ["Apple","Coconut","Banana"];
+console.log(fruits.length);
+console.log(fruits.push("Cheery"));
+//fruits.forEach((element) => console.log(element));
+//console.log(Array.from(fruits));  Array.from('') convert every word into character  [ 'f', 'r', 'u', 'i', 't', 's' ]
+
+// var newarray = fruits.shift(); /// shift the first element into the another array
+// console.log(fruits)
+// console.log(newarray)
+console.log(fruits)
+fruits.sort()
+console.log(fruits)
+
+
+console.log(Array.isArray(fruits))
+
+const sample = fruits.reverse()
+console.log(sample)
