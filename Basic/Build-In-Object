@@ -1,33 +1,30 @@
-// var date = new Date();
-// console.log(date)
-// console.log(date.getMilliseconds())
+/*
+Number
+Math
+Date
+String
+Error
+Function
+Boolean
 
-// Number
-// Math
-// Date
-// String
-// Error
-// Function
-// Boolean
+const fruits = ["Apple","Coconut","Banana"];
+console.log(fruits.length);
+console.log(fruits.push("Cheery"));
+//fruits.forEach((element) => console.log(element));
+//console.log(Array.from(fruits));  Array.from('') convert every word into character  [ 'f', 'r', 'u', 'i', 't', 's' ]
 
-// const fruits = ["Apple","Coconut","Banana"];
-// console.log(fruits.length);
-// console.log(fruits.push("Cheery"));
-// //fruits.forEach((element) => console.log(element));
-// //console.log(Array.from(fruits));  Array.from('') convert every word into character  [ 'f', 'r', 'u', 'i', 't', 's' ]
-
-// // var newarray = fruits.shift(); /// shift the first element into the another array
-// // console.log(fruits)
-// // console.log(newarray)
+// var newarray = fruits.shift(); /// shift the first element into the another array
 // console.log(fruits)
-// fruits.sort()
-// console.log(fruits)
+// console.log(newarray)
+console.log(fruits)
+fruits.sort()
+console.log(fruits)
 
 
-// console.log(Array.isArray(fruits))
+console.log(Array.isArray(fruits))
 
-// const sample = fruits.reverse()
-// console.log(sample)
+const sample = fruits.reverse()
+console.log(sample)
 
 console.log("******************************************** For Number ********************************************************")
 
@@ -44,4 +41,13 @@ console.log(change)
 console.log(typeof change)
 var newchange = change.valueOf();
 console.log(newchange)
-console.log(typeof newchange)
+console.log(typeof newchange)*/
+
+console.log("******************************************** For Date ********************************************************")
+var date = new Date();
+console.log(date)
+console.log(date.toString())
+console.log(date.getFullYear())
+console.log(date.getHours())
+var key= date.toJSON();
+console.log(key)
