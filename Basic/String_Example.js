@@ -1,7 +1,7 @@
 //String declaration
 //One way to declair the string 
 const variable = 'The quick red fox jumped over the lazy dog';
-console.log(variable);
+
 /*
 //another way is created the object of string class
 const sample = new String('Black ship');
@@ -24,9 +24,12 @@ const icons = 'A☃★♲';
 const englishSmall = 'abcd';
 // console.log(englishSmall.charCodeAt(0))
 // console.log(icons.codePointAt(0))
-const otherIcons = '💻🍁🖤😍';
+/*const otherIcons = '💻🍁🖤😍';
 console.log(otherIcons)
 console.log(otherIcons.charCodeAt(0))
 console.log(otherIcons.charCodeAt(1))
 
 console.log(icons.concat(' Concatation of String ', otherIcons))
+*/
+console.log(variable.endsWith('dog'));
+console.log(variable.endsWith('Tiger'));
