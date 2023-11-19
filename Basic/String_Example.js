@@ -29,5 +29,4 @@ console.log(otherIcons)
 console.log(otherIcons.charCodeAt(0))
 console.log(otherIcons.charCodeAt(1))
 
-
-
+console.log(icons.concat(' Concatation of String ', otherIcons))
