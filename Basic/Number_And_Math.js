@@ -21,9 +21,22 @@ console.log(typeof digit);
 console.log( value == digit);
 console.log( value === digit);
 */
-const value = 564;
+
+//const value = 564;
 const digit = 1000000;
-console.log(value.toFixed(2));  //increasing the zero after the parameter passing into the method 564.00
+//console.log(value.toFixed(2));  //increasing the zero after the parameter passing into the method 564.00
 console.log(digit);
 console.log(digit.toLocaleString());  //Increasing the readability
+console.log(digit.toLocaleString('ar-IN'));  //Increasing the readability
+console.log(digit.toLocaleString('ar-EG'));  //Increasing the readability
+console.log(digit.toLocaleString("de-DE", { style: "currency", currency: "EUR" }));  //request a currency format
 
+// the Japanese yen doesn't use a minor unit
+console.log(
+    digit.toLocaleString("ja-JP", { style: "currency", currency: "JPY" }),
+  );
+
+
+// const value = 123.445475
+// console.log(value)
+// console.log(value.toPrecision(4)) // the value upto digit like 123.4
