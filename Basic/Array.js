@@ -21,7 +21,7 @@ console.log();
 console.log("difference between slice and splice")
 console.log();
 
-
+console.log("splice reduce the array like it cut the array and created the new array")
 const months = ['Jan', 'March', 'April', 'June'];
 months.splice(1, 0, 'Feb');
 // Inserts at index 1
