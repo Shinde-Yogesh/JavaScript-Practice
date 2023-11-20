@@ -20,7 +20,7 @@ console.log(digit);
 console.log(typeof digit);
 console.log( value == digit);
 console.log( value === digit);
-*/
+
 
 //const value = 564;
 const digit = 1000000;
@@ -35,8 +35,10 @@ console.log(digit.toLocaleString("de-DE", { style: "currency", currency: "EUR" }
 console.log(
     digit.toLocaleString("ja-JP", { style: "currency", currency: "JPY" }),
   );
+*/
 
-
-// const value = 123.445475
-// console.log(value)
-// console.log(value.toPrecision(4)) // the value upto digit like 123.4
+console.log(Math.random());
+console.log(Math.ceil(4.2))
+console.log(Math.floor(4.2))
+console.log(Math.max(4, 2, 54, 4, 78))
+console.log(Math.min(4, 2, 54, 4, 78))
