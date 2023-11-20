@@ -1,21 +1,7 @@
 console.log("Following are the data types")
 
 
-console.log("############################### Primitive Data type ##############################");
-
-console.log("******************** For number ***************************");
-let a = 10;
-console.log(a);
-
-let maxIntValue = 10155144455147785855114646131166464613116564661313135644661313166564661336565161161311644611313164846461131684611116446631116444161;
-console.log(maxIntValue);
-
-//What is the limit of number in JavaScript?
-//1.7976931348623157e+308
-// 64 bit can store in single number
-
-console.log(typeof maxIntValue);
-
+console.log("############################### Primitive Data type ##############################")
 
 console.log("******************** for String ***************************");
 //for String
