@@ -1,4 +1,4 @@
-const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+/*const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
 // Expected output: Array ["camel", "duck", "elephant"]
@@ -32,3 +32,24 @@ months.splice(4, 1, 'May');
 // Replaces 1 element at index 4
 console.log(months);
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
+*/
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+const months = ['Jan', 'March', 'April', 'June'];
+
+// console.log(animals)
+// console.log(typeof animals)
+
+// console.log(months)
+// animals.push(months)
+
+// console.log(animals)
+// console.log(typeof animals)
+// console.log(animals[5])
+// console.log(animals[5][2])
+console.log(animals)
+console.log(months)
+console.log(animals.concat(months))
+
+
+const collection = [...animals, ...months] // spread operation
+console.log(collection)
