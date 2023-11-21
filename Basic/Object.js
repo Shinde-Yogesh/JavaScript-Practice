@@ -10,6 +10,14 @@ const userJS = {
 }
 
 console.log(userJS);
-console.log(userJS[key]);
-console.log(typeof userJS[key]);
+// console.log(userJS[key]);
+// console.log(typeof userJS[key]);
 
+userJS.myFunction = function() {
+    console.log("Winner is coming")
+}
+userJS.caption = function() {
+    console.log(`Winner is coming ${this.name}`)
+}
+console.log(userJS.myFunction());
+console.log(userJS.caption());
