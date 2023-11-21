@@ -1,5 +1,4 @@
-
-const key = Symbol("main")
+/*const key = Symbol("main")
 
 const userJS = {
     name :"Javascript",
@@ -20,4 +19,26 @@ userJS.caption = function() {
     console.log(`Winner is coming ${this.name}`)
 }
 console.log(userJS.myFunction());
-console.log(userJS.caption());
+console.log(userJS.caption());*/
+
+const tinder = new Object();
+tinder.id = "14578";
+tinder.name = "Jakson";
+tinder.Address = "San-Fransico";
+
+//console.log(tinder);
+
+const newUser = {
+  email: "514@gmail.com",
+  fullName: {
+    First: "Nandy",
+    Last: "Farndace",
+    Telephone: {
+      mobile: 6457815487,
+      tel: 17874,
+    },
+  },
+};
+console.log(newUser);
+console.log(typeof newUser.fullName);
+console.log( newUser.fullName);
