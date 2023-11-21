@@ -47,7 +47,7 @@ console.log(tinder)
 const combination = Object.assign({}, tinder, newUser)
 console.log(combination)
 */
-
+/*
 const person = {
     isHuman: false,
     printIntroduction: function () {
@@ -87,4 +87,18 @@ const object2 = {
   
   // Expected output:
   // "a: somestring"
-  // "b: 42"
+  // "b: 42"*/
+
+  const course = {
+    name :'rubby',
+    price : 65478,
+    nameofInstructor : "jackson"
+  }
+  console.log(course)
+  console.log(typeof course)
+
+  const {nameofInstructor} = course;     /// we can destructing constructor the value 
+  const {nameofInstructor : instructor} = course;     /// we can deconstuct the value 
+
+  console.log(nameofInstructor); 
+  console.log(instructor);    //here is result of destructing the constuctor
