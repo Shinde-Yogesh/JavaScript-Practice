@@ -53,3 +53,6 @@ console.log(animals.concat(months))
 
 const collection = [...animals, ...months] // spread operation
 console.log(collection)
+
+const varibale = [1,2,3,4,[5,6,7],7,[8,9,0]];
+console.log(varibale.flat());
