@@ -47,7 +47,7 @@ const book = {
   name: "The Untold Story",
   price: 6487,
 };
-console.log(book);
+// console.log(book);
 
 function callObjectProperties(anyObject) {
   console.log(
@@ -55,4 +55,15 @@ function callObjectProperties(anyObject) {
   );
 }
 
-callObjectProperties(book);
+// callObjectProperties(book);
+
+
+//with array
+const sample = [10,30,45,78]
+function return_second_value(array)
+{
+    return array[1];
+}
+
+console.log(return_second_value(sample));
+console.log(return_second_value([54,65,478,85]));
