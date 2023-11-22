@@ -1,22 +1,27 @@
 //creation of function
-function sayMyName(name)
-{
-    console.log(`My name is ${name}`)
-}
-
+// function sayMyName(name)
+// {
+//     console.log(`My name is ${name}`)
+// }
+/*
 //checking undefined condition
-function userlogin(user)
-{
-    if(user === undefined)
-    {
-        return "Please enter valid userName";
-        return;
-    }
-    else{
-      return  `User is logged in :  ${user}`
-    }
+function loginUserName(userName) {
+  if (!userName) {
+    console.log("Please enter user name");
+    return;
+  }
+  return `${userName} is logged in`;
 }
+console.log(loginUserName("Hitesh"));
+console.log(loginUserName(""));*/
 
-// sayMyName("Nitya")
-console.log(userlogin("Nitya"));
-
+//default value for user
+function loginUserName(userName = "Jackson") {
+  if (!userName) {
+    console.log("Please enter user name");
+    return;
+  }
+  return `${userName} is logged in`;
+}
+// console.log(loginUserName("Hitesh"))
+console.log(loginUserName("Rahul"));
