@@ -1,4 +1,4 @@
-//console.log(10+70);
+/*//console.log(10+70);
 
 //greeting()
 function greeting ()
@@ -27,4 +27,30 @@ let z = 50;
  
 }
 console.log(a)
-console.log(z)
+console.log(z)*/
+
+function addOne(num) {
+  return num + 1;
+}
+
+console.log(addOne(74));
+
+console.log(sayName("nitya"));
+function sayName(name) {
+  return `my name is ${name}`;
+}
+// here is hoisting
+/*
+const Expression_Example = function sample()
+{
+  return `helllo world`
+}
+console.log(Expression_Example())*/
+
+/*
+console.log(Expression_Example())
+const Expression_Example = function sample()      // here we got error of cannot acces the Expression_Example
+{                                                 // because of express variable
+  return `helllo world`
+}
+*/
