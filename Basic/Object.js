@@ -87,7 +87,7 @@ const object2 = {
   
   // Expected output:
   // "a: somestring"
-  // "b: 42"*/
+  // "b: 42"
 
   const course = {
     name :'rubby',
@@ -101,4 +101,28 @@ const object2 = {
   const {nameofInstructor : instructor} = course;     /// we can deconstuct the value 
 
   console.log(nameofInstructor); 
-  console.log(instructor);    //here is result of destructing the constuctor
+  console.log(instructor);    //here is result of destructing the constuctor*/
+
+  //objec trversing 
+
+  const Language = {
+    cpp : "c++",
+    python : "Python for data science",
+    swift : "Swift for apple",
+    java : "Java"
+  }
+  // console.log(Language)
+  // console.log(typeof Language)
+
+  // traversing the Object
+
+  //here we get the key
+  for (const key in Language) {
+    console.log(key)
+  }
+  
+  //for the values
+  for (const key in Language) {
+    console.log(`keys : ${key} and values are ${Language[key]}`)
+  }
+  
