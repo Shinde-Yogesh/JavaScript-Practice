@@ -101,7 +101,7 @@ const object2 = {
   const {nameofInstructor : instructor} = course;     /// we can deconstuct the value 
 
   console.log(nameofInstructor); 
-  console.log(instructor);    //here is result of destructing the constuctor*/
+  console.log(instructor);    //here is result of destructing the constuctor
 
   //objec trversing 
 
@@ -125,4 +125,36 @@ const object2 = {
   for (const key in Language) {
     console.log(`keys : ${key} and values are ${Language[key]}`)
   }
-  
+  */
+  //forEach i Object
+
+  const codingLanguage = [
+    {
+      LanguageName : "Java",
+      extension : "java"
+    },
+    {
+      LanguageName : "Swift",
+      extension : "swift"
+    },
+    {
+      LanguageName : "python",
+      extension : "py"
+    },
+    {
+      LanguageName : "c++",
+      extension : "cpp"
+    }
+  ]
+  //Here is array
+  // console.log(codingLanguage)
+
+  // codingLanguage.forEach( (item ,index, array) =>{
+  //   console.log(item, index, array)
+  // })
+
+  //Traversing the array -> Obeject -> values
+
+codingLanguage.forEach( (item)=> {
+  console.log(`Language name : ${item.LanguageName} and extension : ${item.extension}`)
+})

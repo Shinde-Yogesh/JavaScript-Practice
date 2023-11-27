@@ -32,7 +32,7 @@ months.splice(4, 1, 'May');
 // Replaces 1 element at index 4
 console.log(months);
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
-*/
+
 const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 const months = ['Jan', 'March', 'April', 'June'];
 
@@ -55,4 +55,34 @@ const collection = [...animals, ...months] // spread operation
 console.log(collection)
 
 const varibale = [1,2,3,4,[5,6,7],7,[8,9,0]];
-console.log(varibale.flat());
+console.log(varibale.flat());*/
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers);
+/*
+const numGreaterThanFive =  numbers.filter((item) => {
+  return item > 5;
+});
+
+without the curli bracket 
+const numGreaterThanFive =  numbers.filter((item) => item > 5);
+const numGreaterThanFive =  numbers.filter((item) => item > 5);
+console.log(numGreaterThanFive)
+
+const total = numbers.reduce( function (acc ,cur)
+{
+    return acc + cur;
+},0); // here is the last zere is initial value
+
+console.log(total)
+const total = numbers.reduce( function (acc ,cur)
+{
+    console.log(`acc ${acc}  and the val ${cur}`)
+    return acc + cur;
+},0); // here is the last zere is initial value
+
+// console.log(total)
+*/
+//using the arrow function
+const total_using_arrow = numbers.reduce( (acc, cur)=> acc+cur, 0);
+console.log(total_using_arrow)
