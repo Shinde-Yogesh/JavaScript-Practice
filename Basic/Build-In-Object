@@ -44,10 +44,22 @@ console.log(newchange)
 console.log(typeof newchange)*/
 
 console.log("******************************************** For Date ********************************************************")
-var date = new Date();
-console.log(date)
-console.log(date.toString())
-console.log(date.getFullYear())
-console.log(date.getHours())
-var key= date.toJSON();
-console.log(key)
+// const date = new Date();
+// console.log(date)
+// console.log(date.toString())
+// console.log(date.getFullYear())
+// console.log(date.getHours())
+// var key= date.toJSON();
+// console.log(key)
+//UTC (Universal Time Coordinated) is the time set by the World Time Standard.
+// UTC time is the same as GMT time (Greenwich Mean Time)
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const d = new Date();
+let day = weekday[d.getUTCDay()]; // it return the integer value like 2 means Tuesday
+console.log(weekday)
+console.log(day)
+
+// for the month
+const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+console.log(month[d.getUTCMonth()]);
