@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Learning</title>
     <style>
-            .bg-black{
-                background-color: #212121;
-                color: #fff;
-            }
-
+      .bg-black {
+        background-color: #212121;
+        color: #fff;
+      }
     </style>
-</head>
-<body class="bg-black">
-    <div>
+  </head>
+  <body class="bg-black">
+    <!-- <div>
         <h1 id="title" class="heading">DOM Learning with Hitesh
             <span style="display: none;">test text</span>
         </h1>
@@ -27,15 +26,24 @@
             <li class="item-list">Three</li>
             <li class="item-list">Four</li>
         </ul>
+    </div> -->
+    <div class="parent">
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
     </div>
-    
-</body>
-<script src="One.js"></script>
+  </body>
+  <script >
+    const parent = document.querySelector('.parent')
+    console.log(parent)
+    console.log(parent.children[1])
+  </script>
 </html>
 
 <!-- in innerText  it gives the basic text from the site that are visiable
 in textContent it gives all the text of the site means iff we hide by using Html properties then 
  styling is not applicable on the textContent -->
 
- <!-- for select the id use #   example = document.querySelector('#heading')
+<!-- for select the id use #   example = document.querySelector('#heading')
  for class select use the . symbol = document.querySelector('.heading') -->
