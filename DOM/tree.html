@@ -20,5 +20,15 @@
 
     //create the custom attribute
     div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "purple"
+    div.style.padding = "12px"
+    // div.innerText = "Winter is coming"
+    //create text node
+   const addText = document.createTextNode("Soviet Union")
+    div.appendChild(addText)
+
+    //above properties show only console
+    //for the into body
+    document.body.appendChild(div)
   </script>
 </html>
