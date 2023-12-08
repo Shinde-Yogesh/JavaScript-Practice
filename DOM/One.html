@@ -11,11 +11,25 @@
             }
 
     </style>
+    <script>
+        const title = document.getElementById('title');
+        console.log(title)
+    </script>
 </head>
 <body class="bg-black">
     <div>
-        <h1 id="title" class="heading">DOM Learning with Hitesh</h1>
+        <h1 id="title" class="heading">DOM Learning with Hitesh
+            <span style="display: none;">test text</span>
+        </h1>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing modi!</h2>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing modi!</h2>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing modi!</h2>
         <p>Lorem ipsum dolor sit amet.</p>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
     </div>
 </body>
 </html>
@@ -23,3 +37,6 @@
 <!-- in innerText  it gives the basic text from the site that are visiable
 in textContent it gives all the text of the site means iff we hide by using Html properties then 
  styling is not applicable on the textContent -->
+
+ <!-- for select the id use #   example = document.querySelector('#heading')
+ for class select use the . symbol = document.querySelector('.heading') -->
