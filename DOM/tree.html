@@ -51,5 +51,23 @@
       document.querySelector(".language").appendChild(li);
     }
     addOptiLanguage('Ruby')
+
+    //edit
+    /*
+    //fisrt way
+    const secondLang = document.querySelector("li:nth-child(2)")
+    secondLang.innerHTML = "C #"
+    */
+    //Second way
+    const secondLang = document.querySelector("li:nth-child(2)")
+    //new element created
+    const newli = document.createElement('li')
+    newli.textContent = "Mojo"
+    secondLang.replaceWith(newli)
+
+    //using outer html
+    const fisrtlang = document.querySelector("li:first-child");
+    fisrtlang.outerHTML = '<li>TypeScript</li>'
+
   </script>
 </html>
