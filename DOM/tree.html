@@ -68,6 +68,8 @@
     //using outer html
     const fisrtlang = document.querySelector("li:first-child");
     fisrtlang.outerHTML = '<li>TypeScript</li>'
-
+    //remove the element
+    const lastlang = document.querySelector("li:last-child");
+    lastlang.remove();
   </script>
 </html>
