@@ -17,7 +17,39 @@ html {
     border: solid black 2px;
     display: inline-block;
   }
+
+  #red {
+    background: #f43545;
+  }
+  #orange {
+    background: #fa8909;
+  }
+
+  #yellow {
+    background: yellow;
+  }
   
+  
+  #green {
+    background: #00ba71;
+  }
+
+  
+  #blue {
+    background: #00c2de;
+  }
+ 
+  
+  #indigo {
+    background: #00418d;
+  }
+ 
+  
+  #violet {
+    background: #5f2879;
+  }
+ 
+
   #grey {
     background: grey;
   }
@@ -25,10 +57,5 @@ html {
   #white {
     background: white;
   }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
+  
   
