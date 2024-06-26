@@ -21,7 +21,6 @@ console.log(typeof digit);
 console.log( value == digit);
 console.log( value === digit);
 
-
 //const value = 564;
 const digit = 1000000;
 //console.log(value.toFixed(2));  //increasing the zero after the parameter passing into the method 564.00
