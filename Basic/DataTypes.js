@@ -1,6 +1,4 @@
 console.log("Following are the data types")
-
-
 console.log("############################### Primitive Data type ##############################")
 
 console.log("******************** for String ***************************");
@@ -10,8 +8,6 @@ console.log(being);
 
 let usingDoubleQuotes = "Winner is comeing"
 console.log(usingDoubleQuotes)
-
-
 console.log("******************** For Boolean***************************");
 
 let isActive = true;
@@ -27,7 +23,6 @@ console.log(typeof nullCheck);
 //  main difference between null and undefined
 
 console.log("******************** For Undefined ***************************");
-
 let key ;
 console.log(key);
 
@@ -35,8 +30,6 @@ console.log(typeof key)
 //here type of key is undefined 
 
 console.log("******************** For Symbol ***************************");
-
-
 var sym = Symbol("Hello") 
 console.log(typeof(sym)); 
 console.log(sym);
