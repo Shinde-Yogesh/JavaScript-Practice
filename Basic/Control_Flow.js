@@ -49,7 +49,6 @@ if(Object.keys(sample).length === 0)
     console.log(`Object length is ${Object.keys(sample).length}`);
 }
 */
-
 //Map function
 
  const county = new Map();
@@ -67,5 +66,4 @@ console.log("Distructing of array")
 for (const [key, value] of county) {
   console.log(key, value)  
 }
-
 //Object are not iterable by this way
