@@ -1,6 +1,4 @@
 // // document.getElementById("title")
-
-
 // //code generate the purple of All Li 
 // console.log("hello");
 // document.querySelectorAll('li')
