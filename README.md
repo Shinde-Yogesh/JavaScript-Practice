@@ -63,3 +63,11 @@ const greet = (name) => {
 
 console.log(greet('World')); // Output: Hello, World!
 </code></pre>
+
+<h3>Fetch API Example</h3>
+<pre><code>// Example of fetching data from an API
+fetch('https://api.weather-data.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+</code></pre>
