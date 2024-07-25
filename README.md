@@ -8,3 +8,24 @@
   <li>⚡ <strong>Fast Performance</strong>: Optimized for speed and efficiency.</li>
   <li>🛠️ <strong>Tooling and Automation</strong>: Using tools like Webpack, Babel, and ESLint to streamline development.</li>
 </ul>
+
+<h2>📂 Project Structure</h2>
+<pre>
+/project-root
+│
+├── /src
+│   ├── /components
+│   ├── /utils
+│   ├── index.js
+│   ├── app.js
+│
+├── /public
+│   ├── index.html
+│
+├── /tests
+│   ├── /unit
+│   ├── /integration
+│
+├── package.json
+├── README.md
+</pre>
