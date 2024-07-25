@@ -52,3 +52,14 @@
     <pre><code>npm test</code></pre>
   </li>
 </ul>
+
+<h2>📜 Code Examples</h2>
+
+<h3>Basic Function Example</h3>
+<pre><code>// Example of a simple function
+const greet = (name) => {
+  return `Hello, ${name}!`;
+};
+
+console.log(greet('World')); // Output: Hello, World!
+</code></pre>
