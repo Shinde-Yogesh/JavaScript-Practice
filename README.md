@@ -29,3 +29,16 @@
 ├── package.json
 ├── README.md
 </pre>
+
+<h2>🛠️ Installation</h2>
+<ol>
+  <li><strong>Clone the repository</strong>:
+    <pre><code>git clone https://github.com/your-username/your-repo.git</code></pre>
+  </li>
+  <li><strong>Navigate to the project directory</strong>:
+    <pre><code>cd your-repo</code></pre>
+  </li>
+  <li><strong>Install dependencies</strong>:
+    <pre><code>npm install</code></pre>
+  </li>
+</ol>
