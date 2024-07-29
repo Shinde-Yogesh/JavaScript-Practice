@@ -71,3 +71,12 @@ fetch('https://api.weather-data.com/data')
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
 </code></pre>
+
+<h2>🔧 Built With</h2>
+<ul>
+  <li><strong>JavaScript (ES6+)</strong></li>
+  <li><strong>Node.js</strong></li>
+  <li><strong>Webpack</strong></li>
+  <li><strong>Babel</strong></li>
+  <li><strong>ESLint</strong></li>
+</ul>
