@@ -102,3 +102,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <li>Push to the branch (<code>git push origin feature/YourFeature</code>)</li>
   <li>Open a pull request</li>
 </ol>
+
+<h2>📞 Contact</h2>
+<ul>
+  <li><strong>Author</strong>: Yogesh Shinde </li>
+  <li><strong>Email</strong>: yogeshshinde2324@gmail.com</li>
+  <li><strong>GitHub</strong>: <a href="[https://github.com/your-username](https://github.com/Shinde-Yogesh)">Shinde-Yogesh</a></li>
+</ul>
