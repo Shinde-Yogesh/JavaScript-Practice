@@ -93,3 +93,12 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
+
+<h2>🤝 Contributing</h2>
+<ol>
+  <li>Fork the repository</li>
+  <li>Create your feature branch (<code>git checkout -b feature/YourFeature</code>)</li>
+  <li>Commit your changes (<code>git commit -m 'Add some feature'</code>)</li>
+  <li>Push to the branch (<code>git push origin feature/YourFeature</code>)</li>
+  <li>Open a pull request</li>
+</ol>
