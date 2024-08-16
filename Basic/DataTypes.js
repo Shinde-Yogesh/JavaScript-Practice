@@ -1,3 +1,5 @@
+
+
 console.log("Following are the data types")
 console.log("############################### Primitive Data type ##############################")
 
